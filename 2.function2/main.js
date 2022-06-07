@@ -1,6 +1,6 @@
 function palindrome(message) {
-    return message === message.split('').reverse().join('');
+    console.log(message === message.split('').reverse().join(''));
 }
 
-console.log(palindrome('hello')); // should return false
-console.log(palindrome('abcba')); // should return true
+palindrome('hello'); // should return false
+palindrome('abcba'); // should return true
