@@ -1,5 +1,4 @@
 function reverseString(message) {
-    return message.split('').reverse().join('');
+    console.log(message.split('').reverse().join(''));
 }
-var output = reverseString('hello'); // should return 'olleh'
-console.log('The answer1: ', output);
+reverseString('hello'); // should return 'olleh'
